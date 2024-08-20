@@ -22,7 +22,7 @@ target_y = random.randint(0, SCREEN_HEIGHT-target_height)
 color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
 # Переменные для движения мыши
-moving_mode = True
+moving_mode = False
 velocity_x = 0.3  # скорость по оси X
 velocity_y = 0.3  # скорость по оси Y
 
