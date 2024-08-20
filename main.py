@@ -55,8 +55,7 @@ while running:
   screen.blit(target_img, (target_x, target_y))
   pygame.display.update()
 
-  # Ограничиваем частоту кадров до 60 FPS
-
+# Ограничиваем частоту кадров до 60 FPS
 clock.tick(60)
 
 pygame.quit()
